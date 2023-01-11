@@ -19,9 +19,10 @@ export const Image = styled.img`
 
 export const User = styled.li`
    display: flex;
-   justify-content: space-around;
+   justify-content: space-between;
+   padding: 0 20px;
    align-items: center;
-   width: 250px;
+   width: 100%;
    height: 50px;
    background: rgba(255, 255, 255, 0.25);
    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
