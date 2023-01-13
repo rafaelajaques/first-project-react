@@ -27,7 +27,7 @@ function Users() {
   }, [])
 
   async function deleteUser(userId) {
-    await axios.delete(`https://projeto-node-rj.vercel.app/users${userId}`)
+    await axios.delete(`https://projeto-node-rj.vercel.app/users/${userId}`)
     const newUsers = users.filter(user => user.id !== userId)
 
     setUsers(newUsers)
